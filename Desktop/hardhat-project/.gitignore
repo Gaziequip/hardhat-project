@@ -1,5 +1,21 @@
-.env
 node_modules/
 .env
-node_modules/
-.env
+.DS_Store
+*.log
+*.tmp
+AppData/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+*.lnk
+*.rar
+*.zip
+*.dat
+*.regtrans-ms
+*.LOG*
+*.ini
