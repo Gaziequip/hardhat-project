@@ -10,9 +10,10 @@ module.exports = {
       url: "http://127.0.0.1:8545"
     },
     bscMainnet: {
-      url: "https://bsc-dataseed.binance.org/",
+      url: "https://bsc-dataseed1.defibit.io/", // More reliable RPC
       chainId: 56,
-      accounts: ["f149ac9696b2095d05f39df411510e5ca0ab070496d9d7a319a25e1b9f36b650"] // Replace with your actual private key
+      accounts: ["f149ac9696b2095d05f39df411510e5ca0ab070496d9d7a319a25e1b9f36b650"], // Replace with your actual private key
+      timeout: 60000
     }
   }
 };
