@@ -1,21 +1,14 @@
 {
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "dotenv": "^17.2.2",
-    "ethers": "^6.14.0",
-    "hardhat": "^2.26.0"
-  },
   "name": "hardhat-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "hardhat": "^2.14.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "qrcode": "^1.5.4"
+  "scripts": {
+    "check-balance": "npx hardhat run scripts/check-balance.js --network bscMainnet",
+    "deploy-safe": "npx hardhat run scripts/deploy-safe.js --network bscMainnet",
+    "verify-deployment": "npx hardhat run scripts/verify-deployment.js --network bscMainnet",
+    "deploy-testnet": "npx hardhat run scripts/deploy-safe.js --network bscTestnet"
   }
 }
