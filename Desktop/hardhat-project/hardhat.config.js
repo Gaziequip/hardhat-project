@@ -25,7 +25,7 @@ module.exports = {
     bscMainnet: {
       url: "https://bsc-dataseed.binance.org/",
       chainId: 56,
-      accounts: ["f149ac9696b2095d05f39df411510e5ca0ab070496d9d7a319a25e1b9f36b650"], // Replace with your mainnet private key
+      accounts: ["7b51e639dcb3ebe9c00852f802cb3c6d2049c6356869715781a3ddcaf2826ead"], // Replace with your mainnet private key
       gasPrice: 5000000000, // 5 Gwei
       gasLimit: 5000000,
       timeout: 60000
