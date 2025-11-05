@@ -21,7 +21,7 @@ module.exports = {
     bscTestnet: {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
       chainId: 97,
-      accounts: ["YOUR_PRIVATE_KEY_HERE"] // Replace with your testnet private key
+      accounts: [process.env.BSC_TESTNET_PRIVATE_KEY],
     },
     bscMainnet: {
       url: "https://bsc-dataseed.binance.org/",
