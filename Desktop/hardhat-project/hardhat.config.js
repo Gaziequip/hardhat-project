@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-ethers");
+require('dotenv').config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -25,7 +26,7 @@ module.exports = {
     bscMainnet: {
       url: "https://bsc-dataseed.binance.org/",
       chainId: 56,
-      accounts: ["f157b51e639dcb3ebe9c00852f802cb3c6d2049c6356869715781a3ddcaf2826ead39dcb3ddcaf2"], // Replace with your mainnet private key
+      accounts: [process.env.BSC_MAINNET_PRIVATE_KEY]
       gasPrice: 5000000000, // 5 Gwei
       gasLimit: 5000000,
       timeout: 60000
